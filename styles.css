@@ -1,0 +1,73 @@
+.navbar-nav .nav-link {
+  margin-left: 50px;
+}
+.portfolio-pic {
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.portfolio-sect {
+  background-color: antiquewhite;
+}
+.writing-text {
+  background-color: rgb(245, 226, 201);
+  color: black;
+}
+.section-padding {
+  padding: 70px 0;
+}
+
+#portfolio {
+  background-color: #f8f9fa;
+}
+
+.portfolio-items .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-items .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-items .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn-outline-info.active {
+  background-color: #0dcaf0;
+  color: #fff;
+}
+#testimonials {
+  background-color: #c5e2ff;
+}
+
+#testimonials .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#testimonials .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#testimonials .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+#testimonials .rounded-circle {
+  border: 3px solid #0dcaf0;
+}
+
+#contacts .card p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+#contacts .text-muted {
+  cursor: default;
+}
+
+#contacts .text-muted:hover {
+  opacity: 0.8;
+}
